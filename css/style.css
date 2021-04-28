@@ -1,0 +1,109 @@
+.bg-nintech{
+   
+    background: url(../img/bg-menu.png) center;
+    box-shadow: 0 0 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    transition: border 2s;
+
+}
+a{
+    
+    color:white;
+}
+
+#boxclientes a:hover{
+    color: blue;
+}
+
+
+.rs-custom a{
+    color: black;
+}
+.rs-custom a:hover{
+    color: gray;
+}
+a:hover{
+    text-decoration: none;
+    color:lightgray; 
+}
+
+#clientes a img{
+    border: 1px solid red;
+    width: 300px;
+    margin: 20px;
+    
+}
+.borda{
+    width: 304px;
+    margin-left: 1.1em;
+    border-bottom: 1px solid red;
+}
+.cinza{
+    color: gray;
+}
+
+
+
+
+#visao {
+    background: url(../img/bg-visao.jpg) fixed center;
+    height: 300px;
+}       
+
+.borda-trs{
+    background: rgba(0,0,0,.5);
+    border-radius: 20px 0;
+    width: 300px; 
+}
+#logo{
+    width: 300px;
+}
+
+
+
+.box-clientes {
+    background: lightgray;
+}
+
+.cliente {
+    width: 150px;
+    height: 100px;
+    background: white;
+    margin-right: 5px;
+}
+
+.cliente:hover {
+    background: rgba(0,0,0,.2);
+    transition: 2s;
+}
+
+.bg-custom {
+    background: url(../img/bg-custom.jpg);
+}
+
+
+
+
+
+@keyframes box-anim{
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+#box-anim{
+    animation-name: box-anim;
+    animation-duration: 10s;
+}
+
+.bg-produtos {
+    background: rgba(0,0,0,.4);
+    color: white;
+    border-radius: 20px 0;
+}
+
